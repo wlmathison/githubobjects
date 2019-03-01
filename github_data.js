@@ -4408,4 +4408,4 @@ const githubData = [
   ]
 
 
-console.log(githubData[6].id)
+console.log(githubData[6].payload.commits[0].message)
